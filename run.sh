@@ -1,6 +1,7 @@
 #/bin/sh
 
-g++ hanoi.cpp -o hanoi_c
+g++ hanoi.cpp -march=native -Wall -O2  -o hanoi_c
+strip hanoi_c
 javac Hanoi.java
 
 i=$1;
