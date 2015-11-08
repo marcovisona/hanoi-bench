@@ -1,9 +1,10 @@
-hanoi
+hanoi-bench
 =======
 
-Implementation of hanoi tower resolver in different languages:
+An implementation of hanoi tower resolver in different languages:
 * C++
-* Java (Nodejs)
+* Java
+* JavaScript (Nodejs)
 * PHP
 * Ruby
 
