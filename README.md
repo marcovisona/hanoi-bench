@@ -40,4 +40,4 @@ and these are the results I've obtained expressed in seconds
 
 Javascript performance are great, not far from C++ ones. Widely used web languages like PHP and Ruby have very poor performances compared to C++ Javascript and Java.
 
-[Full abrout my test article is here (in Italian)](http://www.marcovisona.it/web/prestazioni-php-javascript-ruby-java-c-confronto/)
+[Full article about my tests is here (in Italian)](http://www.marcovisona.it/web/prestazioni-php-javascript-ruby-java-c-confronto/)
