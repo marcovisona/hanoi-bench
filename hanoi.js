@@ -96,7 +96,7 @@ function playGame(decks, quiet) {
 
 // MAIN
 
-console.log("Entry point\n");
+console.log("Entry point");
 var decks = parseInt(process.argv[2]);
 
 playGame(decks, true);

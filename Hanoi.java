@@ -36,20 +36,6 @@ public class Hanoi {
 		hanoi(swap, dest, source, depth - 1);
 	}
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		int decks = Integer.parseInt(args[0]);
-		System.out.println("sss: " + decks );
-		doGame(decks, true);
-		System.out.println("Decks: " + decks + " time: " + times.get(0));
-		// for (int i = 0; i < decks; i++) {
-		// 	doGame(i + 1, true);
-		// 	System.out.println("Decks: " + (i + 1) + " time: " + times.get(i));
-		// }
-	}
-
 	private static void doGame(int decks, boolean quiet) {
 		s1.clear();
 		s2.clear();
@@ -80,6 +66,16 @@ public class Hanoi {
 			System.out.println("Time elapsed for " + totalMoves + " moves: " +
 					time + "secs");
 		}
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int decks = Integer.parseInt(args[0]);
+		doGame(decks, true);
+		System.out.println("Decks: " + decks + " time: " + times.get(0));
+		
 	}
 
 }

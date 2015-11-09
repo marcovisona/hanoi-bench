@@ -44,7 +44,7 @@ class Hanoi
       print "Stack2: " + @stack2.theStack.to_s + "\n"
       print "Stack3: " + @stack3.theStack.to_s + "\n"      
     end
-      print "Decks:\t#{decks}\tTime:\t#{@execTime}\n"
+      print "decks:\t#{decks}\ttime:\t#{@execTime}\n"
   end
   
   def hanoi(source,dest,swap,depth)
